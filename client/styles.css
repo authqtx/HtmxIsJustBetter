@@ -1,0 +1,48 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.chat-header {
+    padding: 10px;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.chat-form {
+    padding: 20px;
+}
+
+#message-input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message .timestamp {
+    font-size: 12px;
+}
